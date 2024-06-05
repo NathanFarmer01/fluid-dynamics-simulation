@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fluid-dynamics-simulation-v2", "fluid-dynamics-simulation-v2\fluid-dynamics-simulation-v2.vcxproj", "{69D602B3-F307-441E-A351-D36C7B322447}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{1ED81432-FFB7-4F90-AD18-94452AA224AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{E79A6303-290F-4FC7-880F-438944A9433E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "vendor\glfw\glfw.vcxproj", "{33A59F45-1153-4860-AA34-8944F67528C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glm", "vendor\glm\glm.vcxproj", "{6AB23150-E0DB-4476-B1C4-C684C960F238}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "vendor\imgui\imgui.vcxproj", "{06C9202C-B4CC-494B-B74C-60014E277B4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D602B3-F307-441E-A351-D36C7B322447}.Debug|x64.ActiveCfg = Debug|x64
+		{69D602B3-F307-441E-A351-D36C7B322447}.Debug|x64.Build.0 = Debug|x64
+		{69D602B3-F307-441E-A351-D36C7B322447}.Debug|x86.ActiveCfg = Debug|Win32
+		{69D602B3-F307-441E-A351-D36C7B322447}.Debug|x86.Build.0 = Debug|Win32
+		{69D602B3-F307-441E-A351-D36C7B322447}.Release|x64.ActiveCfg = Release|x64
+		{69D602B3-F307-441E-A351-D36C7B322447}.Release|x64.Build.0 = Release|x64
+		{69D602B3-F307-441E-A351-D36C7B322447}.Release|x86.ActiveCfg = Release|Win32
+		{69D602B3-F307-441E-A351-D36C7B322447}.Release|x86.Build.0 = Release|Win32
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Debug|x64.ActiveCfg = Debug|x64
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Debug|x64.Build.0 = Debug|x64
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Debug|x86.Build.0 = Debug|Win32
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Release|x64.ActiveCfg = Release|x64
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Release|x64.Build.0 = Release|x64
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Release|x86.ActiveCfg = Release|Win32
+		{33A59F45-1153-4860-AA34-8944F67528C6}.Release|x86.Build.0 = Release|Win32
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Debug|x64.ActiveCfg = Debug|x64
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Debug|x64.Build.0 = Debug|x64
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Debug|x86.Build.0 = Debug|Win32
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Release|x64.ActiveCfg = Release|x64
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Release|x64.Build.0 = Release|x64
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Release|x86.ActiveCfg = Release|Win32
+		{6AB23150-E0DB-4476-B1C4-C684C960F238}.Release|x86.Build.0 = Release|Win32
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Debug|x64.ActiveCfg = Debug|x64
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Debug|x64.Build.0 = Debug|x64
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Debug|x86.Build.0 = Debug|Win32
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Release|x64.ActiveCfg = Release|x64
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Release|x64.Build.0 = Release|x64
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Release|x86.ActiveCfg = Release|Win32
+		{06C9202C-B4CC-494B-B74C-60014E277B4B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69D602B3-F307-441E-A351-D36C7B322447} = {1ED81432-FFB7-4F90-AD18-94452AA224AC}
+		{33A59F45-1153-4860-AA34-8944F67528C6} = {E79A6303-290F-4FC7-880F-438944A9433E}
+		{6AB23150-E0DB-4476-B1C4-C684C960F238} = {E79A6303-290F-4FC7-880F-438944A9433E}
+		{06C9202C-B4CC-494B-B74C-60014E277B4B} = {E79A6303-290F-4FC7-880F-438944A9433E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A44199F-6720-4700-8C20-703D8D593F26}
+	EndGlobalSection
+EndGlobal
