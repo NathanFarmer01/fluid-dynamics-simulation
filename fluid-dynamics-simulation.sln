@@ -13,8 +13,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "vendor\glfw\build\s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glm", "vendor\glm\build\glm\glm.vcxproj", "{CF659436-BE7B-37ED-BFDF-8F3665C4A1BF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_glfw_vulkan", "vendor\imgui\examples\example_glfw_vulkan\example_glfw_vulkan.vcxproj", "{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -75,22 +73,6 @@ Global
 		{CF659436-BE7B-37ED-BFDF-8F3665C4A1BF}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
 		{CF659436-BE7B-37ED-BFDF-8F3665C4A1BF}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|x64
 		{CF659436-BE7B-37ED-BFDF-8F3665C4A1BF}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Debug|x64.ActiveCfg = Debug|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Debug|x64.Build.0 = Debug|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Debug|x86.ActiveCfg = Debug|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Debug|x86.Build.0 = Debug|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.MinSizeRel|x64.ActiveCfg = Debug|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.MinSizeRel|x64.Build.0 = Debug|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.MinSizeRel|x86.ActiveCfg = Debug|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.MinSizeRel|x86.Build.0 = Debug|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Release|x64.ActiveCfg = Release|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Release|x64.Build.0 = Release|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Release|x86.ActiveCfg = Release|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.Release|x86.Build.0 = Release|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.RelWithDebInfo|x64.ActiveCfg = Release|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.RelWithDebInfo|x64.Build.0 = Release|x64
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,7 +81,6 @@ Global
 		{69D602B3-F307-441E-A351-D36C7B322447} = {1ED81432-FFB7-4F90-AD18-94452AA224AC}
 		{F1EAB904-314D-3B17-8A11-913C43F96191} = {E79A6303-290F-4FC7-880F-438944A9433E}
 		{CF659436-BE7B-37ED-BFDF-8F3665C4A1BF} = {E79A6303-290F-4FC7-880F-438944A9433E}
-		{57E2DF5A-6FC8-45BB-99DD-91A18C646E80} = {E79A6303-290F-4FC7-880F-438944A9433E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A44199F-6720-4700-8C20-703D8D593F26}
