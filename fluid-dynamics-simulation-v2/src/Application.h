@@ -2,6 +2,7 @@
 
 #include <optional>
 #include <vector>
+#include <iostream>
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
@@ -67,6 +68,25 @@ private:
 	VkExtent2D ChooseSwapExtent(const VkSurfaceCapabilitiesKHR& capabilities);
 	std::vector<VkImageView> swapChainImageViews;
 	void CreateImageViews();
+	VkRenderPass renderPass;
+	void CreateRenderPass();
+	VkPipelineLayout pipelineLayout;
+	VkPipeline graphicsPipeline;
+	void CreateGraphicsPipeline();
+	VkShaderModule createShaderModule(const std::vector<char>& code);
+	std::vector<VkFramebuffer> swapChainFramebuffers;
+	void CreateFrameBuffers();
+	VkCommandPool commandPool;
+	void CreateCommandPool();
+	VkCommandBuffer commandBuffer;
+	void CreateCommandBuffer();
+	void RecordCommandBuffer(VkCommandBuffer commandBuffer, uint32_t imageIndex);
+	VkSemaphore imageAvailableSemaphore;
+	VkSemaphore renderFinishedSemaphore;
+	VkFence inFlightFence;
+	void CreateSyncObjects();
+	void DrawFrame();
 	static void GLFWErrorCallback(int error, const char* description);
 	static void VkCheckResult(VkResult err);
+	static std::vector<char> readFile(const std::string& filename);
 };
